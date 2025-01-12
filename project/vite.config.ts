@@ -7,7 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/portofolio-iyamm/', 
   build: {
     outDir: 'dist',  // Tentukan folder output build
+    
   },
 });
